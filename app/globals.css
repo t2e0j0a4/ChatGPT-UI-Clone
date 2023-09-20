@@ -19,7 +19,8 @@ body {
     max-width: 100vw;
     color: var(--c-b);
     overflow-x: hidden;
-    background-color: var(--c-w);
+    background-color: rgba(52,53,65,1);
+    background-image: linear-gradient(180deg,rgba(53,55,64,0),#353740 58.85%)
 }
 
 a {
@@ -40,7 +41,7 @@ li {
     width: 100%;
     max-width: 100%;
     height: 100%;
-    background-color: #fff;
+    background-color: rgba(52,53,65,1);
 
     display: flex;
     flex-direction: row;
