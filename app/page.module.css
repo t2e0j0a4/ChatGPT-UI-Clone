@@ -187,7 +187,7 @@
 @media all and (max-width : 1024px) {
 
     .demo__prompts {
-        margin: 3rem auto 1.5rem;
+        margin: 5rem auto 1.5rem;
     }
 
 }
@@ -204,17 +204,17 @@
     }
 
     .basic__card > button, .pro__card > button {
-        padding: 0.7rem 0.7rem;
-        font-size: 15px;
+        padding: 0.9rem;
+        font-size: 16px;
     }
 
     .page__head {
-        margin: 1rem auto 1.8rem;
+        margin: 1.2rem auto 2rem;
     }
 
     .page__head h1 {
         color: rgb(145, 145, 145);
-        font-size: 24px;
+        font-size: 28px;
     }
 
 }
