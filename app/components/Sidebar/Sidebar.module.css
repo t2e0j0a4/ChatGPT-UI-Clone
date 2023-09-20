@@ -149,7 +149,7 @@
     transition: background-color 300ms linear;
 }
 
-.sec3__opt:nth-child(1) > button, .sec3__opt:nth-child(2) > button {
+.sec3__opt:nth-child(1) > div, .sec3__opt:nth-child(2) > button {
     width: 90%;
     display: flex;
     flex-direction: row;

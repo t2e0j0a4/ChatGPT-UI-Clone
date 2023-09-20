@@ -63,8 +63,8 @@ const Sidebar = () => {
         {/* Options */}
         <div className={styles.sidebar__sec3}>
           
-          <button type='button' className={styles.sec3__opt}>
-            <button type='button' onClick={myContext?.handleTogglePopup}><CiUser/><p>Upgrade to plus</p></button>
+          <button onClick={myContext?.handleTogglePopup} type='button' className={styles.sec3__opt}>
+            <div><CiUser/><p>Upgrade to plus</p></div>
             <span>NEW</span>
           </button>
 
