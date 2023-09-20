@@ -127,7 +127,7 @@
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: flex-start;
     align-items: center;
     gap: 0.5rem;
 }
@@ -199,6 +199,23 @@
 
     .sec1__cta:hover, .sec2__chats a:hover , .sec3__opt:hover {
         background-color: rgba(80, 80, 80, 0.524);
+    }
+
+}
+
+/* Media Queries Responsive */
+
+@media all and (max-width : 800px) {
+
+    .app__sidebar {
+        position: absolute;
+        top: 0;
+        left: -900px;
+        z-index: 9999;
+    }
+
+    .app__sidebar.smscreen__active {
+        left: 0;
     }
 
 }

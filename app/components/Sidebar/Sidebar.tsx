@@ -31,7 +31,7 @@ const Sidebar = () => {
   const myContext: (MyContextTypes | undefined) = useContext(appContext);
  
   return (
-    <nav className={`${styles.app__sidebar} ${myContext?.toggleSidebar && styles.not__active}`}>
+    <nav className={`${styles.app__sidebar} ${myContext?.toggleSidebar && styles.not__active} ${myContext?.smToggleSidebar && styles.smscreen__active}`}>
       <aside className={styles.sidebar__main}>
 
         {/* New chat + Toggle Sidebar button */}
@@ -40,7 +40,7 @@ const Sidebar = () => {
             <BsPlus />
             <span>New chat</span>
           </button>
-          <button className={styles.sec1__cta} type="button" onClick={myContext?.handleToggleSidebar}>
+          <button className={styles.sec1__cta} type="button" onClick={() => myContext?.handleToggleSidebar(true)}>
             <FiSidebar />
           </button>
         </div>
