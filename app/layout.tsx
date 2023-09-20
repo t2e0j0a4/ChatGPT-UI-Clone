@@ -12,7 +12,7 @@ import AppState from "./context/AppState";
 const notosans = Noto_Sans({ subsets: ["latin"], weight : ['100', '300', '400', '500', '600'] });
 
 export const metadata: Metadata = {
-  title: "Chat GPT",
+  title: "ChatGPT",
   description: "ChatGPT Clone.",
 };
 
