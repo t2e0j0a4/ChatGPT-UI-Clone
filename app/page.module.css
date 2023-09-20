@@ -26,15 +26,6 @@
 
 }
 
-@media all and (max-width : 600px) {
-
-    .app__main {
-        height: 100%;
-        min-height: 100%;
-    }
-
-}
-
 /* *************************************************************** */
 
 .main__page {
@@ -220,7 +211,7 @@
 @media all and (max-width : 450px) {
 
     .main__page {
-        padding: 0.8rem 0.6rem 1rem;
+        padding: 0.8rem 0.6rem 2rem;
     }
 
     .page__cards {
