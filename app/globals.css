@@ -48,3 +48,17 @@ li {
 
     position: relative;
 }
+
+@media all and (max-width : 600px) {
+
+    *, button, a {
+        cursor: default !important;
+    }
+
+    li, p, h1, h2, h3, h4, h5, h6, a, button, img {
+        user-select: none;
+        -webkit-user-select: none;
+        -webkit-user-drag: none;
+    }
+
+}
