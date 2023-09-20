@@ -22,7 +22,6 @@
     .app__main {
         transition: padding-left 300ms ease;
         padding-left: 0;
-        justify-content: space-around;
     }
 
 }
@@ -195,7 +194,7 @@
 
 @media all and (max-width : 740px) {
 
-    .demo__prompts > button:nth-child(1), .demo__prompts > button:nth-child(3) {
+    .demo__prompts > button:nth-child(1) {
         display: none;
     }
 
