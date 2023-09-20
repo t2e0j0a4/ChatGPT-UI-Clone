@@ -17,8 +17,12 @@ const AppState = ({children}: {children: React.ReactNode}) => {
 
   const handleSmToggleSidebar = () => { setSmToggleSidebar(true) }
 
+  const [ togglePopup, setTogglePopup ] = useState<boolean>(false);
+
+  const handleTogglePopup = () => { setTogglePopup(!togglePopup) }
+
   return (
-    <AppContext.Provider value={{ toggleSidebar, handleToggleSidebar, smToggleSidebar, handleSmToggleSidebar }}>
+    <AppContext.Provider value={{ toggleSidebar, handleToggleSidebar, smToggleSidebar, handleSmToggleSidebar, togglePopup, handleTogglePopup }}>
       {children}
     </AppContext.Provider>
   )

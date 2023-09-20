@@ -13,12 +13,14 @@
 }
 
 .app__main_full {
+    transition: padding-left 300ms ease;
     padding-left: 0;
 }
 
 @media all and (max-width : 800px) {
 
     .app__main {
+        transition: padding-left 300ms ease;
         padding-left: 0;
     }
 

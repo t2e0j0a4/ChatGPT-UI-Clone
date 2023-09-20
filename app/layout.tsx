@@ -4,6 +4,7 @@ import { Noto_Sans } from "next/font/google";
 
 // Components
 import Sidebar from "./components/Sidebar/Sidebar";
+import PlusPopup from "./components/PlusPopup/PlusPopup";
 
 // Context State
 import AppState from "./context/AppState";
@@ -25,6 +26,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <main className="app">
             <Sidebar/>
             {children}
+            <PlusPopup/>
           </main>
         </AppState>
       </body>

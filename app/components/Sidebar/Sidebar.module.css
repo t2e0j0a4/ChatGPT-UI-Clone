@@ -149,7 +149,7 @@
     transition: background-color 300ms linear;
 }
 
-.sec3__opt:nth-child(1) div, .sec3__opt:nth-child(2) > button {
+.sec3__opt:nth-child(1) > button, .sec3__opt:nth-child(2) > button {
     width: 90%;
     display: flex;
     flex-direction: row;
@@ -158,19 +158,16 @@
     gap: 0.4rem;
     font-size: 16px;
     color: #fff;
-}
-
-.sec3__opt:nth-child(2) > button {
     border: none;
     outline: none;
     background-color: transparent;
 }
 
 .sec3__opt:nth-child(1) span {
-    background-color: rgba(247, 202, 64, 0.896);
+    background-color: rgba(248, 211, 102, 0.896);
     color: #232323;
     font-size: 12px;
-    border-radius: 8px;
+    border-radius: 6px;
     text-align: center;
     padding: 0.15rem 0.3rem;
 }

@@ -69,7 +69,10 @@ const Page = () => {
                     <h4>Our most capable model, great for tasks that require creativity and advance reasoning.</h4>
                     <p>Available exclusively for plus users.</p>
                     <p>GPT-4 currently has a cap of 25 messages for every 3 hours.</p>
-                    <button type='button'>Upgrade to GPT plus</button>
+                    <button type='button' onClick={() => {
+                      setAppPlan('active');
+                      myContext?.handleTogglePopup();
+                    }}>Upgrade to GPT plus</button>
                   </Planbox>
                 )
               }

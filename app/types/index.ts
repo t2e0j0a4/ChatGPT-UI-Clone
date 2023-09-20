@@ -1,8 +1,12 @@
 export default interface MyContextTypes {
-    toggleSidebar: boolean,
+    togglePopup: boolean,
+    handleTogglePopup: () => void,
+
     smToggleSidebar: boolean,
-    handleToggleSidebar: (payload: boolean) => void,
     handleSmToggleSidebar: () => void,
+    
+    toggleSidebar: boolean,
+    handleToggleSidebar: (payload: boolean) => void,
 }
 
 type MyDemoPromptsType = {
